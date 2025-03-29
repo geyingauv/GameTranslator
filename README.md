@@ -13,15 +13,16 @@
 1. 创建依赖环境
 `conda env create -f environment.yml`
 `conda activate game_translator`
-2. 运行 hotkey_translator.py
+2. 设置模型配置文件
+`cp .env_example .env`
+3. 运行 hotkey_translator.py
 `python .\hotkey_translator.py`
-3. 在文本输入框中选中要翻译的文本
-3. 按下 Ctrl+T 快捷键
-4. 选中的文本将被自动翻译并替换
+4. 在文本输入框中选中要翻译的文本
+5. 按下 Ctrl+T 快捷键
+6. 选中的文本将被自动翻译并替换
 
 ## 配置说明
 
-`cp .env_example .env`
 
 程序使用 .env 文件进行配置，包含以下参数：
 
